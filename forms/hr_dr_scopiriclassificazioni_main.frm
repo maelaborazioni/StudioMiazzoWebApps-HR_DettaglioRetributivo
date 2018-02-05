@@ -1,0 +1,150 @@
+dataSource:"db:/ma_anagrafiche/lavoratori",
+items:[
+{
+anchors:11,
+location:"0,0",
+mediaOptions:6,
+size:"800,20",
+styleClass:"title_bar",
+toolTipText:"i18n:sampleuse_navigation.anagrafica_ditta_classif_tab_tipi.label_1073742044.toolTipText",
+typeid:7,
+uuid:"0D9C2EC6-00E7-42DD-90FD-323571818AA8"
+},
+{
+borderType:"SpecialMatteBorder,0.0,0.0,0.0,1.0,#000000,#000000,#000000,#434343,0.0,",
+formIndex:2,
+location:"280,0",
+size:"200,20",
+styleClass:"title_text",
+text:"Dettagli",
+transparent:true,
+typeid:7,
+uuid:"1DC8EA46-BB6F-400F-BE81-0F360E3CFB99"
+},
+{
+anchors:13,
+beanClassName:"com.servoy.extensions.beans.dbtreeview.DBTreeView",
+beanXML:"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\
+<java version=\"1.7.0_02\" class=\"java.beans.XMLDecoder\">\
+ <object class=\"com.servoy.extensions.beans.dbtreeview.DBTreeView\">\
+  <void property=\"background\">\
+   <object class=\"java.awt.Color\">\
+    <int>255<\/int>\
+    <int>255<\/int>\
+    <int>255<\/int>\
+    <int>255<\/int>\
+   <\/object>\
+  <\/void>\
+  <void property=\"borderType\">\
+   <object class=\"com.servoy.j2db.util.gui.SpecialMatteBorder\">\
+    <float>0.0<\/float>\
+    <float>0.0<\/float>\
+    <float>0.0<\/float>\
+    <float>1.0<\/float>\
+    <object class=\"java.awt.Color\">\
+     <int>67<\/int>\
+     <int>67<\/int>\
+     <int>67<\/int>\
+     <int>255<\/int>\
+    <\/object>\
+    <object class=\"java.awt.Color\">\
+     <int>67<\/int>\
+     <int>67<\/int>\
+     <int>67<\/int>\
+     <int>255<\/int>\
+    <\/object>\
+    <object class=\"java.awt.Color\">\
+     <int>67<\/int>\
+     <int>67<\/int>\
+     <int>67<\/int>\
+     <int>255<\/int>\
+    <\/object>\
+    <object class=\"java.awt.Color\">\
+     <int>67<\/int>\
+     <int>67<\/int>\
+     <int>67<\/int>\
+     <int>255<\/int>\
+    <\/object>\
+   <\/object>\
+  <\/void>\
+  <void property=\"transparent\">\
+   <boolean>false<\/boolean>\
+  <\/void>\
+ <\/object>\
+<\/java>\
+",
+location:"0,20",
+name:"scopi_tree",
+size:"280,290",
+typeid:12,
+uuid:"30ECB53E-12C5-4F46-A571-CD6E7A84DD44"
+},
+{
+anchors:15,
+items:[
+{
+containsFormID:"90D579E4-3DB4-4C37-BD3C-4D917DAFD351",
+location:"281,80",
+name:"elementi_dtl_tab",
+text:"hr_dr_elementiriclassificazioni_tbl",
+typeid:15,
+uuid:"49072128-FCDB-4583-8B52-063817129280"
+}
+],
+location:"280,50",
+name:"detail_tabless",
+printable:false,
+size:"520,260",
+tabOrientation:-1,
+transparent:true,
+typeid:16,
+uuid:"54FE332D-DF2B-404D-B58A-9D3BE574FB96"
+},
+{
+height:310,
+partType:5,
+typeid:19,
+uuid:"5D2668C5-1FA6-47C1-BAB0-C3466520E9BA"
+},
+{
+anchors:3,
+dataProviderID:"vTotale",
+editable:false,
+enabled:false,
+format:"0.00000",
+horizontalAlignment:4,
+location:"690,25",
+name:"fld_totale",
+size:"91,20",
+typeid:4,
+uuid:"B51ECF9C-E313-46A3-833B-ADD29DB819BF"
+},
+{
+anchors:3,
+labelFor:"fld_totale",
+location:"657,25",
+name:"lbl_totale",
+size:"30,20",
+text:"Totale",
+transparent:true,
+typeid:7,
+uuid:"D6011E6B-4D0C-437E-8295-A52897611D55"
+},
+{
+formIndex:1,
+location:"2,0",
+size:"200,20",
+styleClass:"title_text",
+text:"Riclassificazioni",
+transparent:true,
+typeid:7,
+uuid:"F197E05A-A577-490D-837A-D2209CD99226"
+}
+],
+name:"hr_dr_scopiriclassificazioni_main",
+navigatorID:"-1",
+onShowMethodID:"-1",
+size:"800,310",
+styleName:"leaf_style",
+typeid:3,
+uuid:"2EA650C7-B3C3-4033-B382-C5B688981C36"
