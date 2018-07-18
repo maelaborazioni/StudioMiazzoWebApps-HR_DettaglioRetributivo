@@ -100,7 +100,7 @@ function createTabs()
 	}
 	
 	// Controlla che almeno una tipologia sia associata allo scopo corrente
-	/** @type {JSFoundset<db:/ma_hr/tabtipologieelementi>} */
+	/** @type {JSFoundSet<db:/ma_hr/tabtipologieelementi>} */
 	var tipologiaFoundset = databaseManager.getFoundSet(globals.Server.MA_HR, 'tabtipologieelementi');
 	
 	// Escludi le tipologie che non hanno riclassificazioni associate per la ditta corrente

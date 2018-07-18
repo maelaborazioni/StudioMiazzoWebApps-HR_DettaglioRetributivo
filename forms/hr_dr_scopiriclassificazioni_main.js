@@ -203,11 +203,11 @@ function refreshTree(tipologia, idDitta, selectionPath)
 	// Some other execution could have disabled this
 	elements.scopi_tree.enabled = true;
 	
-//	/** @type {JSFoundset<db:/ma_hr/tabscopi>} */
+//	/** @type {JSFoundSet<db:/ma_hr/tabscopi>} */
 //	var scopiFs = databaseManager.getFoundSet(globals.Server.MA_HR, 'tabscopi');
 //	globals.getScopiRiclassificati(tipologia, idDitta, scopiFs);
 
-	/** @type {JSFoundset<db:/ma_hr/dittascopo>} */
+	/** @type {JSFoundSet<db:/ma_hr/dittascopo>} */
 	var scopiFs = databaseManager.getFoundSet(globals.Server.MA_HR, 'dittascopo');
 	if(scopiFs && scopiFs.find())
 	{
